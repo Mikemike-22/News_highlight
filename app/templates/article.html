@@ -1,4 +1,37 @@
 {% extends 'base.html'%}
 {%block content%}
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h2 class = "text-center">{{title}}</h2>
+  </div>
+
+  <div class="row">
+    {%for article in articles%}
+    <div class="col-md-4"  style = "height:50%">
+      <div class="card">
+        <img class="card-img-top img-responsive" src ={{article.urlToImage}} alt="Article Image">
+
+        <div class="card-body">
+
+
+        <h3 class = "card-title">{{articles.title}}</h3>
+        <p class = "card-text">{{articles.description</p>
+        <div class="card-footer">
+          <p class = "card-text"><small class = "text-muted">Posted By:</small>{{articles.author}}</p>
+            <p class = "card-text"><small class = "text-muted">Posted On:</small>{{articles.publishedAt}}</p>
+            <a class = "btn btn-info" href={{article.url}} target="_blank">Visit site</a>
+
+
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  {%endfor%}
+
+</div>
 
 {%endblock%}
