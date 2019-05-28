@@ -1,4 +1,4 @@
-#News-highlight Application
+# News-highlight Application
 
 ## Author
 
