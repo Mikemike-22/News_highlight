@@ -28,7 +28,10 @@ HTML
 Bootstrap
 
 ## Project's BDD
-Behaviour	Expected Output User loads homepage	A list of News sources is displayed including News title, a little description and a link called Browse articles User clicks Browse articles link	A page with various articles is loaded. User clicks visit site button	The user is redirected to the source website where they can read the full article
+| BEHAVIOUR                    	| OUTPUT                                                                      	|
+|------------------------------	|-----------------------------------------------------------------------------	|
+| User loads homepage          	| A list of  News sources is displayed together with the links to the sources 	|
+| User clicks Read Articles... 	| a page with articles from the source is displayed                           	|
 
 ## Link to live site
 
